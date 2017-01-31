@@ -105,8 +105,14 @@ p.bodyText {
     text-align: justify;
 }
 
-.bodyText a {
+.bodyText a, .creditsText a {
     text-decoration: none;
     color: inherit;
     border-bottom: dotted black 1px;
+}
+
+.creditsText {
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: center;
 }

@@ -246,9 +246,9 @@ class Footer extends React.Component {
             <div>
                 <a name="Final"></a>
                 <h1 style={{fontFamily: "title"}}>{this.props.locale === "pt" ? "Palavras finais" : "Closing Words"}</h1>
-                <p className="bodyText" dangerouslySetInnerHTML={{__html: outro[this.props.locale]}}>
-                </p>
+                <p className="bodyText" dangerouslySetInnerHTML={{__html: outro[this.props.locale]}}></p>
                 <img src="img/no2c6h4nh2.png" className="mainImg" />
+                <p className="creditsText" dangerouslySetInnerHTML={{__html: credits[this.props.locale]}}></p>
             </div>
 
         )

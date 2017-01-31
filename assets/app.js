@@ -289,7 +289,8 @@ class Footer extends React.Component {
                 this.props.locale === "pt" ? "Palavras finais" : "Closing Words"
             ),
             React.createElement("p", { className: "bodyText", dangerouslySetInnerHTML: { __html: outro[this.props.locale] } }),
-            React.createElement("img", { src: "img/no2c6h4nh2.png", className: "mainImg" })
+            React.createElement("img", { src: "img/no2c6h4nh2.png", className: "mainImg" }),
+            React.createElement("p", { className: "creditsText", dangerouslySetInnerHTML: { __html: credits[this.props.locale] } })
         );
     }
 }
